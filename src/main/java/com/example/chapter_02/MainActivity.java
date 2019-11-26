@@ -4,13 +4,13 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.PersistableBundle;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
 import com.example.chapter_02.ListViewTest.MainListViewActivity;
+import com.example.chapter_02.RecyclerViewTest.MainRecyclerViewActivity;
 
 public class MainActivity extends BaseActivity {
 
@@ -35,7 +35,7 @@ public class MainActivity extends BaseActivity {
         btn_fruit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MainListViewActivity.class);
+                Intent intent = new Intent(MainActivity.this, MainRecyclerViewActivity.class);
                 startActivity(intent);
             }
         });

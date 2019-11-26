@@ -21,7 +21,8 @@
             android:label="@string/title_activity_dialog"
             android:theme="@android:style/Theme.Dialog" /> <!-- 将活动设置为对话框式 -->
         <activity android:name=".NormalActivity" />
-        <activity android:name=".ListViewTest.MainListViewActivity"></activity>
+        <activity android:name=".ListViewTest.MainListViewActivity" />
+        <activity android:name=".RecyclerViewTest.MainRecyclerViewActivity"></activity>
     </application>
 
 </manifest>
